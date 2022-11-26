@@ -1,0 +1,29 @@
+Objects are a specific part of the world state. They occupy a specific
+space.
+
+Agents have an internal state and a set of actions. The can also
+observe, creating some potentially noisy and probably limited record
+of the state of the world.
+
+Automated agents have a way to assign value to observed states and
+models for how their actions might impact the world state.
+
+Live agents have internal processes that continually modify their
+internal state.
+
+Physical agents have objects that are exposed for manipulation and
+observation by other agents.
+
+Animals have a body and vitality. They are capable of specific kinds
+of actions and observations. Actions are inherently fuzzy. A skill
+makes an action more precise.
+
+A ability is a specific action that has a specific intended effect on
+the state of the world (including other physical agents). The actual
+effect may be different from the intended effect based on the
+ability's skill (accuracy). An ability may also have an effect on the
+agent itself.
+
+A skill may be based on calibration. By repeating an action with an
+intended effect and observing the actual effect the ability may be
+calibrated to get more accurate over time.
